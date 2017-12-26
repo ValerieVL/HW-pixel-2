@@ -1,0 +1,35 @@
+header {
+  background: #dcdcdc;
+  height: 230px;
+
+  .wrapper-header {
+    width: 980px;
+    margin: 0 auto;
+    height: inherit;
+
+    .left {
+      height: inherit;
+      float: left;
+      display: flex;
+      align-items: center;
+    }
+
+    .right {
+      height: inherit;
+      float: right;
+      display: flex;
+      align-items: center;
+
+      h1 {
+        color: #767676;
+        font-size: 40px;
+        line-height: 46px;
+        letter-spacing: 0.025em;
+        font-family: 'OpenSansCondensedLight';
+      }
+
+    }
+
+  }
+
+}

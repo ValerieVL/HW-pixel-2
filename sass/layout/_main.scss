@@ -1,0 +1,57 @@
+main {
+
+  .news {
+    float: left;
+    background: #777777;
+    width: 350px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 195px;
+
+    .wrapper-news {
+      padding: 22px 53px 100px 34px;
+
+      h2 {
+        font-size: 40px;
+        line-height: 46px;
+      }
+
+      article {
+        margin-top: 34px;
+
+        span {
+          font-style: italic;
+        }
+
+      }
+
+      a {
+        color: #ffffff;
+        text-align: right;
+        margin-top: 34px;
+        display: block;
+      }
+
+    }
+
+  }
+
+  .company {
+    float: right;
+    width: 570px;
+    margin-top: 50px;
+
+    h2 {
+      font-size: 40px;
+      font-weight: normal;
+      line-height: 46px;
+    }
+
+    p {
+      margin-top: 30px;
+    }
+
+  }
+
+}
+
